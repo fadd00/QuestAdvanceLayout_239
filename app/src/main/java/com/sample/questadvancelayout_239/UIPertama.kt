@@ -53,7 +53,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     .fillMaxWidth(fraction = 1f)
                     .padding(10.dp),
                 colors = CardDefaults.cardColors(
-                    containerColor = Color.Yellow
+                    containerColor = Color.Gray
                 )
             ) {
                 Row(
@@ -81,13 +81,6 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                             color = Color.Black,
                             fontWeight = FontWeight.SemiBold
                         )
-                        Text(
-                            text = stringResource(id = R.string.no_hp),
-                            fontSize = 16.sp,
-                            fontFamily = FontFamily.Cursive,
-                            color = Color.Black,
-                            fontWeight = FontWeight.SemiBold
-                        )
                     }
                 }
             }
@@ -99,7 +92,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     .fillMaxWidth(fraction = 1f)
                     .padding(10.dp),
                 colors = CardDefaults.cardColors(
-                    containerColor = Color.LightGray
+                    containerColor = Color.Blue
                 )
             ) {
                 Row(
@@ -145,7 +138,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     .fillMaxWidth(fraction = 1f)
                     .padding(10.dp),
                 colors = CardDefaults.cardColors(
-                    containerColor = Color.Cyan
+                    containerColor = Color.Green
                 )
             ) {
                 Row(
