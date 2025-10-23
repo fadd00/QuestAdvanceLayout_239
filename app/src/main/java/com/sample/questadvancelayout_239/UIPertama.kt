@@ -78,7 +78,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                             text = stringResource(id = R.string.alamat),
                             fontSize = 16.sp,
                             fontFamily = FontFamily.Cursive,
-                            color = Color.black,
+                            color = Color.Black,
                             fontWeight = FontWeight.SemiBold
                         )
                     }
