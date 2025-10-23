@@ -84,6 +84,45 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     }
                 }
             }
+
+            Spacer(modifier = Modifier.height(10.dp))
+
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth(fraction = 1f)
+                    .padding(10.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = Color.LightGray
+                )
+            ) {
+                Row(
+                    modifier = Modifier.padding(10.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Image(
+                        painter = painterResource(id = R.drawable.ic_baseline_school_24),
+                        contentDescription = "Icon Card 2",
+                        modifier = Modifier.size(40.dp)
+                    )
+                    Spacer(modifier = Modifier.width(10.dp))
+                    Column {
+                        Text(
+                            text = "Card Baru - Isi Nanti",
+                            fontSize = 30.sp,
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.Black,
+                            fontWeight = FontWeight.SemiBold
+                        )
+                        Text(
+                            text = "Deskripsi card baru",
+                            fontSize = 16.sp,
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.Black,
+                            fontWeight = FontWeight.SemiBold
+                        )
+                    }
+                }
+            }
         }
 
         Text(
