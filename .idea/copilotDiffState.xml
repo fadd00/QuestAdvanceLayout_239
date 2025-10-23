@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_school_24.xml">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_school_24.xml" />
+              <option name="updatedContent" value="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;    android:width=&quot;24dp&quot;&#10;    android:height=&quot;24dp&quot;&#10;    android:viewportWidth=&quot;24&quot;&#10;    android:viewportHeight=&quot;24&quot;&#10;    android:tint=&quot;?attr/colorControlNormal&quot;&gt;&#10;  &lt;path&#10;      android:fillColor=&quot;@android:color/white&quot;&#10;      android:pathData=&quot;M5,13.18v4L12,21l7,-3.82v-4L12,17l-7,-3.82zM12,3L1,9l11,6 9,-4.91V17h2V9L12,3z&quot;/&gt;&#10;&lt;/vector&gt;&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+              <option name="originalContent" value="&lt;resources&gt;&#10;    &lt;string name=&quot;app_name&quot;&gt;QuestAdvanceLayout_239&lt;/string&gt;&#10;    &lt;string name=&quot;prodi&quot;&gt;Teknologi Informasi&lt;/string&gt;&#10;    &lt;string name=&quot;univ&quot;&gt;Muhammadiyah&lt;/string&gt;&#10;    &lt;string name=&quot;nama&quot;&gt;Andhika Hutama&lt;/string&gt;&#10;    &lt;string name=&quot;alamat&quot;&gt;tangerang, banten&lt;/string&gt;&#10;    &lt;string name=&quot;copy&quot;&gt;copyright, 2025&lt;/string&gt;&#10;&lt;/resources&gt;" />
+              <option name="updatedContent" value="&lt;resources&gt;&#10;    &lt;string name=&quot;app_name&quot;&gt;QuestAdvanceLayout_239&lt;/string&gt;&#10;    &lt;string name=&quot;prodi&quot;&gt;Teknologi Informasi&lt;/string&gt;&#10;    &lt;string name=&quot;univ&quot;&gt;Muhammadiyah&lt;/string&gt;&#10;    &lt;string name=&quot;nama&quot;&gt;Andhika Hutama&lt;/string&gt;&#10;    &lt;string name=&quot;alamat&quot;&gt;tangerang, banten&lt;/string&gt;&#10;    &lt;string name=&quot;copy&quot;&gt;copyright, 2025&lt;/string&gt;&#10;    &lt;string name=&quot;s1&quot;&gt;Sarjana Komputer&lt;/string&gt;&#10;    &lt;string name=&quot;s2&quot;&gt;Universitas Muhammadiyah Yogyakarta&lt;/string&gt;&#10;    &lt;string name=&quot;s3&quot;&gt;2020 - 2024&lt;/string&gt;&#10;&lt;/resources&gt;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
