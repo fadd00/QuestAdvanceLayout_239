@@ -81,6 +81,13 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                             color = Color.Black,
                             fontWeight = FontWeight.SemiBold
                         )
+                        Text(
+                            text = stringResource(id = R.string.no_hp),
+                            fontSize = 16.sp,
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.Black,
+                            fontWeight = FontWeight.SemiBold
+                        )
                     }
                 }
             }
@@ -109,6 +116,13 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                         Text(
                             text = "Card Baru - Isi Nanti",
                             fontSize = 30.sp,
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.Black,
+                            fontWeight = FontWeight.SemiBold
+                        )
+                        Text(
+                            text = stringResource(id = R.string.no_hp2),
+                            fontSize = 16.sp,
                             fontFamily = FontFamily.Cursive,
                             color = Color.Black,
                             fontWeight = FontWeight.SemiBold
