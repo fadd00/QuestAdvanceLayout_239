@@ -61,7 +61,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.ic_baseline_school_24),
+                        painter = painterResource(id = R.drawable.umy),
                         contentDescription = "Icon Pendidikan",
                         modifier = Modifier.size(40.dp)
                     )
@@ -100,7 +100,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.ic_baseline_school_24),
+                        painter = painterResource(id = R.drawable.umy),
                         contentDescription = "Icon Card 2",
                         modifier = Modifier.size(40.dp)
                     )
@@ -146,7 +146,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.ic_baseline_school_24),
+                        painter = painterResource(id = R.drawable.umy),
                         contentDescription = "Icon Card 3",
                         modifier = Modifier.size(40.dp)
                     )
