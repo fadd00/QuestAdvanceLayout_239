@@ -114,21 +114,21 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     Spacer(modifier = Modifier.width(10.dp))
                     Column {
                         Text(
-                            text = "Card Baru - Isi Nanti",
+                            text = stringResource(id = R.string.nama1),
                             fontSize = 30.sp,
                             fontFamily = FontFamily.Cursive,
                             color = Color.Black,
                             fontWeight = FontWeight.SemiBold
                         )
                         Text(
-                            text = stringResource(id = R.string.no_hp2),
+                            text = stringResource(id = R.string.alamat1),
                             fontSize = 16.sp,
                             fontFamily = FontFamily.Cursive,
                             color = Color.Black,
                             fontWeight = FontWeight.SemiBold
                         )
                         Text(
-                            text = "Deskripsi card baru",
+                            text = stringResource(id = R.string.no1),
                             fontSize = 16.sp,
                             fontFamily = FontFamily.Cursive,
                             color = Color.Black,
@@ -160,14 +160,21 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     Spacer(modifier = Modifier.width(10.dp))
                     Column {
                         Text(
-                            text = "Card Ketiga",
+                            text = stringResource(id = R.string.nama2),
                             fontSize = 30.sp,
                             fontFamily = FontFamily.Cursive,
                             color = Color.Black,
                             fontWeight = FontWeight.SemiBold
                         )
                         Text(
-                            text = "Deskripsi card ketiga",
+                            text = stringResource(id = R.string.alamat2),
+                            fontSize = 16.sp,
+                            fontFamily = FontFamily.Cursive,
+                            color = Color.Black,
+                            fontWeight = FontWeight.SemiBold
+                        )
+                        Text(
+                            text = stringResource(id = R.string.no2),
                             fontSize = 16.sp,
                             fontFamily = FontFamily.Cursive,
                             color = Color.Black,
