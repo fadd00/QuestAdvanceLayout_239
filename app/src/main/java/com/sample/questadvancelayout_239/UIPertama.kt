@@ -53,7 +53,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     .fillMaxWidth(fraction = 1f)
                     .padding(10.dp),
                 colors = CardDefaults.cardColors(
-                    containerColor = Color(0xFFE0E0E0)
+                    containerColor = Color.Yellow
                 )
             ) {
                 Row(
@@ -71,14 +71,14 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                             text = stringResource(id = R.string.nama),
                             fontSize = 30.sp,
                             fontFamily = FontFamily.Cursive,
-                            color = Color.White,
+                            color = Color.Black,
                             fontWeight = FontWeight.SemiBold
                         )
                         Text(
                             text = stringResource(id = R.string.alamat),
                             fontSize = 16.sp,
                             fontFamily = FontFamily.Cursive,
-                            color = Color.White,
+                            color = Color.black,
                             fontWeight = FontWeight.SemiBold
                         )
                     }
