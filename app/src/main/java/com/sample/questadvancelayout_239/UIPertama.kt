@@ -2,6 +2,7 @@ package com.sample.questadvancelayout_239
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -59,11 +60,11 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     modifier = Modifier.padding(10.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Image(
-                        painter = painterResource(id = R.drawable.ic_baseline_school_24),
-                        contentDescription = "Icon Pendidikan",
-                        modifier = Modifier.size(40.dp)
-                    )
+//                    Image(
+//                        painter = painterResource(id = R.drawable.ic_baseline_school_24),
+//                        contentDescription = "Icon Pendidikan",
+//                        modifier = Modifier.size(40.dp)
+//                    )
                     Spacer(modifier = Modifier.width(10.dp))
                     Column {
                         Text(
@@ -84,7 +85,8 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
         }
-
+        Box(modifier = Modifier
+            .fillMaxSize())
         Text(
             text = stringResource(id = R.string.copy),
             fontSize = 14.sp,
