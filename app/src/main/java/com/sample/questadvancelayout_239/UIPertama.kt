@@ -60,11 +60,11 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     modifier = Modifier.padding(10.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-//                    Image(
-//                        painter = painterResource(id = R.drawable.ic_baseline_school_24),
-//                        contentDescription = "Icon Pendidikan",
-//                        modifier = Modifier.size(40.dp)
-//                    )
+                    Image(
+                        painter = painterResource(id = R.drawable.ic_baseline_school_24),
+                        contentDescription = "Icon Pendidikan",
+                        modifier = Modifier.size(40.dp)
+                    )
                     Spacer(modifier = Modifier.width(10.dp))
                     Column {
                         Text(
