@@ -85,15 +85,11 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
         }
-        Box(modifier = Modifier
-            .fillMaxSize())
+
         Text(
             text = stringResource(id = R.string.copy),
             fontSize = 14.sp,
             modifier = Modifier.padding(bottom = 20.dp)
         )
     }
-}
-
-class UIPertama {
 }
